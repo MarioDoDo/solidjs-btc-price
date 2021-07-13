@@ -14,7 +14,7 @@ function Get() {
   const [price, setPrice] = createSignal(0),
     fn = setInterval(() => {
     Get();
-    setPrice(z)}, 1000);
+    setPrice(z)}, 30000);
     setPrice();
   return <div><p>{price()}$</p></div>;
 };
